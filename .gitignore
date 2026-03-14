@@ -1,0 +1,29 @@
+# Virtual environment
+ml_report_env/
+venv/
+env/
+.env/
+
+# Large data files
+*.pkl
+processed_data.pkl
+
+# Large model files (>100MB - exceeds GitHub limit)
+best_cnn_model.keras
+best_vgg16_model.keras
+*.keras
+*.h5
+
+# Joblib model files
+*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS
+.DS_Store
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
